@@ -83,8 +83,9 @@ namespace Blackjack.Test.ComponentTests
 }
 //if changed cards equal (assert.istrue)(look at other test) 
 //Shuffle function must make sure that the majority (80%) eight out of every 10 cards are different at minimum.
-//X-Homework 1: Fix your semicolons. You should get in the habit of making sure you always do your end semicolons with your open (beginning) semicolons. 
-//  - Same for parenthesis etc.
+//X-Homework 1: Fix your semicolons. You should get in the habit of making sure you always do your end semicolons 
+//with your open (beginning) semicolons. Same for parentheses, etc.
+
 //Homework 2: Write a test assert to check that the majority (80%) eight out of every 10 cards really are different.
 //  - Avoid floating point numbers.
 
@@ -92,6 +93,8 @@ namespace Blackjack.Test.ComponentTests
 
 
 //Go through the list of cards (List<Card> cards), and compare it to the cards in the deck after they have been shuffled.
-//After they have been shuffled, at least some of them should be different. But maybe not all. So your assertions have to be able to handle some not changing.
-//There is also a chance that all of the cards are the same, but we will deal with that later. For now just work on this part. 
-//Hint: You will need to figure out how to interact with the deck to get the cards out. What public method can you use? Draw
+//After they have been shuffled, at least some of them should be different. But maybe not all. So your assertions have to 
+//be able to handle some not changing. There is also a chance that all of the cards are the same, but we will deal with that 
+//later. For now, just work on this part. 
+//HINT: You will need to figure out how to interact with the deck to get the cards out. What public method can you use? 
+//Draw
